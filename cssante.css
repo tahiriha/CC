@@ -22,49 +22,6 @@
     font-size: x-large;
 } 
    
-
-#st3{
-    
-    position: absolute;
-    right: 120px;
-    bottom: 150px;
-    text-align: center;
-}
- 
-#st2{ 
-      position: absolute;
-      bottom: 120px;
-      right: 520px;
-      text-align: center;
-
-}
-#st1{
-    position: absolute;
-    left: 120px;
-    bottom: 150px;
-    text-align: center;
-
-}
-
-.st6{
-    position: absolute;
-    right: 120px;
-    bottom: 5px;
-    text-align: center;
-}
-.st5{
-    position: absolute;
-    right: 560px;
-    bottom: 10px;
-    text-align: center;
-}
-
-.st4{
-    position: absolute;
-    left: 120px;
-    bottom: 10px;
-    text-align: center;
-}   
 h2{
     text-align: center;
 }
@@ -81,5 +38,13 @@ header{
     background-color: yellow;
 }
 section{
+    color: blue;
+}
+section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+header{
     color: blue;
 }
